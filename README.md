@@ -26,6 +26,8 @@ Randomized Prim's
   - Picks a random cell and marks it as part of the maze then adds the wall of adjacent as unvisited (add to a wall list)
   - while wall list not emptied, pick random one. If only one cell out the 2 that it divides is visited mark it and the wall as part of the maze(passage);
   - Then add neighbourings wall to wall's list -> restart
+
+
 Eller's
   - Makes weird thing and row by row usefull for imperfect maze
   - creates random row and connection to each of 'em
