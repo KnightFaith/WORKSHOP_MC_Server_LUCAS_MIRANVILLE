@@ -29,5 +29,4 @@ Randomized Prim's
 Eller's
   - Makes weird thing and row by row usefull for imperfect maze
   - creates random row and connection to each of 'em
-  - 
 	
