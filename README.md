@@ -14,12 +14,11 @@ Recursive Back-tracker :
       Perfect for "perfect" maze;
 
 Depth-First search
-    -   choose a starting point in the field,
-    -   choose a wall(another anchor point) then carve through also randomly choosen non visited adjacent cells or choose the first non visited cell that's next to the cuurent one,
-    -   like the rec back_t it will go back  through it's cell until new non-visited one appears,
-    -   algo ends when position are back tracked all the way to the starting point 
-    more or less based on randomly choosen decision
-    could produce more or less complex mazes 
+
+    -   choose a starting point in the field
+    -   choose a wall(another anchor point) then carve through also randomly choosen non visited adjacent cells or choose the first non visited cell that's next to the cuurent one
+    -   like the rec back_t it will go back  through it's cell until new non-visited one appears
+    -   algo ends when position are back tracked all the way to the starting point  more or less based on randomly choosen decisioncould produce more or less complex mazes 
     
 Randomized Prim's
   - Start with a wall filled grid
