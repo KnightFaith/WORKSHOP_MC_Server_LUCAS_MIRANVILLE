@@ -3,11 +3,11 @@ BS-DANTE
 
 Recursive Back-tracker :
 
-	USING  STOWAGE && STACKS-> 
+ USING  STOWAGE && STACKS-> 
     - STACK 1 : POSITIONS 
 	    all visited position are stacked until no more neighbours are available	when all current   neighbours are explored, destack(or pop) their place (off the stack) repeat ops until no more  cells are unexplored.
 	
-  stowage 2 : VISITED : 
+    - stowage 2 : VISITED 
       same as position only difference is pos will not get popped out of stack if no neighbours are available
       
       Quite fast && "simple";
@@ -25,4 +25,9 @@ Randomized Prim's
   - Start with a wall filled grid
   - Picks a random cell and marks it as part of the maze then adds the wall of adjacent as unvisited (add to a wall list)
   - while wall list not emptied, pick random one. If only one cell out the 2 that it divides is visited mark it and the wall as part of the maze(passage);
+  - Then add neighbourings wall to wall's list -> restart
+Eller's
+  - Makes weird thing and row by row usefull for imperfect maze
+  - creates random row and connection to each of 'em
   - 
+	
