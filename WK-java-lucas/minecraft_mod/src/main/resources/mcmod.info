@@ -1,0 +1,16 @@
+[
+{
+  "modid": "WKmod",
+  "name": "my_mod",
+  "description": "Workshop mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["lucas"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": [@Mod]
+}
+]
