@@ -48,12 +48,12 @@ processResources {
 }
 
 def buildAndMove = tasks.register("buildAndMove") {
-    dependsOn 'build' {
-
+    dependsOn('build') {
+        doLast {
+            copy {
+                from ""
+                into "./server/plugin"
+            }
+        }
     }
-
-}
-
-buildAndMove.configure {
-    mustRunAfter()
 }
