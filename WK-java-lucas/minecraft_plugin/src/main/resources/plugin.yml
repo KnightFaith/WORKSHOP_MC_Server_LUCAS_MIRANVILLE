@@ -1,0 +1,4 @@
+name: WSHOP_Plugin
+version: 1.0
+author: KnightFaith
+main: com.github.WSHOP_plugin.WSHOP_Plugin

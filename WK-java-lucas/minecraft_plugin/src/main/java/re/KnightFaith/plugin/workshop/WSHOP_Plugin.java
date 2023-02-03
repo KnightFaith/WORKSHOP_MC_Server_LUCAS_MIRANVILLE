@@ -1,17 +1,14 @@
 package re.KnightFaith.plugin.workshop;
-import org.bukkit.plugin.java;
-public class WSHOP_Plugin extends java.JavaPlugin {
+public class WSHOP_Plugin extends org.bukkit.plugin.java.JavaPlugin
+{
 
-    onEnable() {
-        System.out.println("Sheit");
-    }
-
-    onDisable() {
-
-    }
-
-    org.bukkit.plugin.java.JavaPlugin.onEnable()
+    @Override public void onDisable()
     {
         System.out.println("Sheit");
+    }
+
+    @Override public void onEnable()
+    {
+        System.out.println("Going Up");
     }
 }
